@@ -2,14 +2,13 @@
 
 A Retrieval-Augmented Generation (RAG) based chatbot that answers questions from PDF documents using semantic search, vector embeddings, and a Large Language Model. The project uses **LangChain, Groq, Hugging Face Embeddings, ChromaDB, and Streamlit** to provide an interactive document question-answering experience.
 
-> **LIVE Working Link:** [Add your deployed Streamlit app URL here](YOUR_STREAMLIT_APP_URL)
+> **🌐 LIVE Working Link:** [Open the deployed app](https://aneeshkulkarni077-ai-rag-document-chatbot-app-wufmfs.streamlit.app)
 
 ## 🌐 Live Application
 
 🚀 **Try the project here:**
 
-[Open RAG Document Chatbot](YOUR_STREAMLIT_APP_URL)
-
+[Open RAG Document Chatbot](https://aneeshkulkarni077-ai-rag-document-chatbot-app-wufmfs.streamlit.app)
 The application allows users to ask questions about document content and receive answers generated using relevant information retrieved from the uploaded or configured documents.
 
 *Note: The live link will work once the application has been deployed.*
