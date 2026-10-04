@@ -1,0 +1,43 @@
+# LangChain
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+
+# LLM Providers
+langchain-groq
+langchain-mistralai
+
+# Embeddings
+sentence-transformers
+langchain-huggingface
+
+# Vector Database
+faiss-cpu
+
+# Document Loaders
+pypdf
+python-docx
+unstructured
+
+# Environment Variables
+python-dotenv
+
+# API / Web App
+fastapi
+uvicorn
+requests
+
+# Streamlit UI
+streamlit
+
+# Tokenization
+tiktoken
+
+# Data Processing
+numpy
+pandas
+
+# HTTP / Async Support
+httpx
+aiohttp

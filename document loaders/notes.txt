@@ -1,0 +1,46 @@
+Retrieval-Augmented Generation (RAG)
+
+RAG is an AI architecture that combines information retrieval with a large language model. Instead of relying only on the knowledge stored in the model, a RAG application retrieves relevant information from external documents and uses it to generate answers.
+
+Main Components of RAG
+
+1. Document Loaders: Document loaders read data from sources such as PDF files, text files, Word documents, and websites.
+
+2. Text Splitters: Text splitters divide large documents into smaller chunks. Chunking makes it easier to retrieve relevant information and helps fit the text within the model's context window.
+
+3. Embeddings: Embeddings convert text into numerical vectors that represent semantic meaning. Similar pieces of text generally have similar vector representations.
+
+4. Vector Database: A vector database stores embeddings and allows the application to search for semantically similar text. FAISS is one option for local vector similarity search.
+
+5. Retriever: The retriever searches the vector database and returns document chunks relevant to a user's question.
+
+6. Language Model: The language model uses the retrieved context to generate a response.
+
+How RAG Works
+
+Step 1: Load documents from files using document loaders.
+Step 2: Split the documents into smaller chunks.
+Step 3: Generate embeddings for each chunk.
+Step 4: Store the embeddings in a vector database.
+Step 5: Retrieve relevant chunks when a user asks a question.
+Step 6: Pass the retrieved context and question to the language model.
+Step 7: Generate an answer based on the supplied context.
+
+Example
+
+Question: What is the purpose of a document loader?
+Answer: A document loader reads data from a source file and converts it into a document representation that can be processed by a RAG pipeline.
+
+Advantages of RAG
+
+- It can use information from custom documents.
+- Documents can be updated without retraining the language model.
+- It can provide answers grounded in retrieved context.
+- It is useful for document question-answering systems and knowledge assistants.
+
+Limitations of RAG
+
+- Poor document quality can reduce answer accuracy.
+- Incorrect chunk sizes can affect retrieval.
+- Retrieval may return irrelevant information.
+- The language model may still generate incorrect answers if the retrieved context is insufficient.
